@@ -106,7 +106,7 @@ class App extends Component {
         {showModal && 
         <Modal 
           onClose={this.onCloseModal}
-          modalImg={largeImg}
+          largeImg={largeImg}
         />}
       </div>
      );
